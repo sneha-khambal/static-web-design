@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container{
+   height: 100vh;
+   width: 100%; 
+  background-image: url("images/lotus-flower-1805784_1280.png");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   padding-left: 5%;
+   padding-right: 5%;box-sizing: border-box;
+   position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display:flex;
+    align-items: center;
+}
+
+.navbar{
+    flex: 1;
+    padding-left: 60px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navbar ul li a{
+text-decoration: none;
+ 
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(200, 94, 160);
+}
+
+.content p{
+    font-size: large;
+    font-weight: 100;
+    color: rgb(44, 58, 5);
+}
+
+.content .btn{
+display: inline-block;
+background: linear-gradient(45deg,#87adfe,#ff77cd);
+border-radius: 6px;
+padding: 10px 20px;
+text-decoration: none;
+box-shadow: 6px 8px 15px rgba(94,28,68,0.15);
+}
+.visit{
+    height: 10vh;
+    width: 50%;
+    
+
+}
+ .visit a .img{
+     height: 50px;
+     width: 40px;
+ }
